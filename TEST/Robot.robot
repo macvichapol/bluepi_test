@@ -2,8 +2,8 @@
 Library         Selenium2Library
 Library         BuiltIn
 Library         Collections
-Resource        Keyword_BluePi.robot
-Resource        Variable_BluePi.robot
+Resource        Keyword.robot
+Resource        Variable.robot
 Test Setup      Run Keywords
 ...             Open browser to do List    AND
 ...             Verify Component On Website    ${TITLE_DATA}    ${ADD_ITEM_DATA}    ${TO-DO_TASKS_DATA}    ${COMPLETED_DATA}
