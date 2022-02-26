@@ -67,7 +67,6 @@ Verify to do tasks page - add to do list success more than one list
     ...            ${TEST_4}
     Click Element    xpath=/html/body/div/div/div[1]/a[2]
     ${titleName}    Get text    xpath=/html/body/div/h1
-    ${addItemSuccess}    Get text    xpath=//*[@id="text-1"]
     Should Be Equal As Strings    ${titleName}    ${TITLE_DATA}
     ${isToDoListExist}    Get Element Count    xpath=//*[@id="incomplete-tasks"]/li
     log    ${isToDoListExist}
